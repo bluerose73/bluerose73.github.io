@@ -47,12 +47,13 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: PyTorch
+    web_url: https://pytorch.org/
+    image_url: https://raw.githubusercontent.com/github/explore/224672533a7f836ad6bf142e4dee61217cfc100e/topics/pytorch/pytorch.png
 
-  - name: Web design
+  - name: Game Development
+    web_url: https://gameprogrammingpatterns.com/
+    image_url: https://raw.githubusercontent.com/github/explore/766170cd8ae0eaf49dcd8b3a478626cca6abae1d/topics/game-development/game-development.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Japanese Language
+    web_url: https://genki3.japantimes.co.jp/en/
