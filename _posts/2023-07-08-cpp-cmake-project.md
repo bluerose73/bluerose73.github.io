@@ -63,6 +63,8 @@ If the library is not a CMake project, you have to write the build files on your
 
 Sometimes the build process becomes too long, or the source code is not available (like for closed-source libraries). In these cases, you can include headers and pre-built library files instead.
 
+The drawback is lack of portability. Windows, MacOS and Linux requires different library files, so libraries built on one OS won't work on another. Walkaround does exist, like including libraries for all platforms and choosing which one to link at build time, but we are not going to cover it in this post.
+
 ### Install Libraries System-Wide
 
 Another approach is install the libraries to your computer, instead of putting it in a project. The advantage is nothing is added to your code repository, so the repo size stays small and the build is fast. Besides, if the library is installed as a dynamic linking library (with .so / .dll extensions), which is often the case, many programs can share one library at run time, so it consumes less storage and memory.
