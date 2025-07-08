@@ -17,7 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -46,14 +46,14 @@ projects:
   # website: http://your_website_url
   # youtube: your_username
 
-topics:
-  - name: PyTorch
-    web_url: https://pytorch.org/
-    image_url: https://raw.githubusercontent.com/github/explore/224672533a7f836ad6bf142e4dee61217cfc100e/topics/pytorch/pytorch.png
+# topics:
+#   - name: PyTorch
+#     web_url: https://pytorch.org/
+#     image_url: https://raw.githubusercontent.com/github/explore/224672533a7f836ad6bf142e4dee61217cfc100e/topics/pytorch/pytorch.png
 
-  - name: Game Development
-    web_url: https://gameprogrammingpatterns.com/
-    image_url: https://raw.githubusercontent.com/github/explore/766170cd8ae0eaf49dcd8b3a478626cca6abae1d/topics/game-development/game-development.png
+#   - name: Game Development
+#     web_url: https://gameprogrammingpatterns.com/
+#     image_url: https://raw.githubusercontent.com/github/explore/766170cd8ae0eaf49dcd8b3a478626cca6abae1d/topics/game-development/game-development.png
 
-  - name: Japanese Language
-    web_url: https://genki3.japantimes.co.jp/en/
+#   - name: Japanese Language
+#     web_url: https://genki3.japantimes.co.jp/en/
